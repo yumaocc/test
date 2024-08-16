@@ -16,7 +16,7 @@ import { AppService } from './app.service';
       isGlobal: true,
       load: [configuration],
     }),
-    MongooseModule.forRoot(process.env.MONGO_URI),
+    MongooseModule.forRoot("mongodb+srv://2310087518:nW11eogX1EfRUgRu@cluster0.6xs0w.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"),
     DatabaseModule,
     UserModule,
     AuthModule,
